@@ -23,11 +23,11 @@ docker run -d -p 3306:3306 --name book-library-api-db -e MYSQL_ROOT_PASSWORD=<YO
 Now that you have a container for your book-library,
 **wake it up!** run:
 ```bash
-docker start book-library-api-api-db
+docker start book-library-api-db
 ```
 ***anytime you shutdown your computer, you have to wake the container up again when your computer is turned on, and to stop your docker container at anytime, run:
 ```bash
-docker stop book-library-api-api-db
+docker stop book-library-api-db
 ```
 
 
