@@ -20,8 +20,8 @@ You can set up a MYSQL image in a docker by running the following commands in yo
 docker run -d -p 3306:3306 --name book-library-api-db -e MYSQL_ROOT_PASSWORD=<YOUR_PASSWORD> mysql
 **keep the password safe**
 ``` 
-NOW THAT YOU HAVE A CONTAINER FOR YOUR BOOK-LIBRARY,
-**wake up!** run:
+Now that you have a container for your book-library,
+**wake it up!** run:
 ```bash
 docker start book-library-api-api-db
 ```
